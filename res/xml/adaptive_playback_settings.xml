@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2026 crDroid Android Project
+     Copyright (C) 2016-2026 Lineage OS Special Project (LOSP)
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -34,7 +34,7 @@
         android:key="adaptive_playback_intro_text"
         android:title="@string/adaptive_playback_intro_text"/>
 
-    <com.crdroid.settings.preferences.SystemSettingSeekBarPreference
+    <com.losp.settings.preferences.SystemSettingSeekBarPreference
         android:key="adaptive_playback_timeout"
         android:title="@string/adaptive_playback_timeout_title"
         android:defaultValue="30"
