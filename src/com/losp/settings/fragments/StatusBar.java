@@ -204,7 +204,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
         LineageSettings.System.putIntForUser(resolver,
                 LineageSettings.System.STATUS_BAR_CLOCK, 2, UserHandle.USER_CURRENT);
         LineageSettings.System.putIntForUser(resolver,
-                LineageSettings.System.STATUS_BAR_BATTERY_STYLE, 0, UserHandle.USER_CURRENT);
+                LineageSettings.System.STATUS_BAR_BATTERY_STYLE, 2, UserHandle.USER_CURRENT);
         LineageSettings.System.putIntForUser(resolver,
                 LineageSettings.System.STATUS_BAR_SHOW_BATTERY_PERCENT, 0, UserHandle.USER_CURRENT);
         Settings.Secure.putIntForUser(resolver,
