@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2026 crDroid Android Project
+     Copyright (C) 2026 Lineage OS Special Project (LOSP)
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -40,7 +40,7 @@
             android:key="ts_manage_targets"
             android:title="@string/ts_manage_target_apps"
             android:summary="@string/ts_no_targets"
-            android:fragment="com.crdroid.settings.fragments.misc.TrickyStoreAppSettings" />
+            android:fragment="com.losp.settings.fragments.misc.TrickyStoreAppSettings" />
 
         <Preference
             android:key="ts_import_targets"
