@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
  <!--
-      Copyright (C) 2021-2026 crDroid Android Project
+      Copyright (C) 2021-2026 Lineage OS Special Project (LOSP)
  
       Licensed under the Apache License, Version 2.0 (the "License");
       you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@
      android:title="@string/settings_icon_title">
      
      <!-- Combined icon style -->
-     <com.crdroid.settings.preferences.SystemSettingListPreference
+     <com.losp.settings.preferences.SystemSettingListPreference
          android:key="settings_icon_style"
          android:title="@string/settings_icon_style_title"
          android:entries="@array/settings_icon_style_entries"
@@ -28,14 +28,14 @@
          android:defaultValue="0" />
 
      <!-- Random colors -->
-     <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+     <com.losp.settings.preferences.SystemSettingSwitchPreference
          android:key="settings_icon_random_colors"
          android:title="@string/settings_icon_random_colors_title"
          android:summary="@string/settings_icon_random_colors_summary"
          android:defaultValue="false" />
          
      <!-- Corner style -->
-     <com.crdroid.settings.preferences.SystemSettingListPreference
+     <com.losp.settings.preferences.SystemSettingListPreference
          android:key="settings_icon_corner_style"
          android:title="@string/settings_icon_corner_style_title"
          android:entries="@array/settings_corner_style_entries"
