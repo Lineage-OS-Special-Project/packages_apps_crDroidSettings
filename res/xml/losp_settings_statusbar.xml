@@ -108,7 +108,7 @@
             android:icon="@drawable/ic_shapes"
             android:title="@string/statusbar_colored_icons_title"
             android:summary="@string/statusbar_colored_icons_summary"
-            android:defaultValue="false" />
+            android:defaultValue="true" />
 
         <com.losp.settings.preferences.SystemSettingSwitchPreference
 	        android:key="statusbar_notif_count"
