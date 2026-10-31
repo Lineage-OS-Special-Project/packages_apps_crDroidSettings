@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) crDroid Android Project
+     Copyright (C) Lineage OS Special Project (LOSP)
      SPDX-License-Identifier: Apache-2.0
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
@@ -19,7 +19,7 @@
         android:key="edge_light_enabled"
         android:title="@string/enable" />
 
-    <com.crdroid.settings.preferences.SystemSettingSeekBarPreference
+    <com.losp.settings.preferences.SystemSettingSeekBarPreference
         android:key="edge_light_pulse_count"
         android:title="@string/edge_light_pulse_count_title"
         android:summary="@string/edge_light_pulse_count_summary"
@@ -30,7 +30,7 @@
         settings:units=""
         android:dependency="edge_light_enabled" />
 
-    <com.crdroid.settings.preferences.SystemSettingSeekBarPreference
+    <com.losp.settings.preferences.SystemSettingSeekBarPreference
         android:key="edge_light_stroke_width"
         android:title="@string/edge_light_stroke_width_title"
         android:summary="@string/edge_light_stroke_width_summary"
@@ -41,7 +41,7 @@
         settings:units="dp"
         android:dependency="edge_light_enabled" />
 
-    <com.crdroid.settings.preferences.SystemSettingListPreference
+    <com.losp.settings.preferences.SystemSettingListPreference
         android:key="edge_light_color_mode"
         android:title="@string/edge_light_color_mode_title"
         android:entries="@array/edge_light_color_mode_entries"
@@ -50,7 +50,7 @@
         android:defaultValue="accent"
         android:dependency="edge_light_enabled" />
 
-    <com.crdroid.settings.preferences.SystemSettingListPreference
+    <com.losp.settings.preferences.SystemSettingListPreference
         android:key="edge_light_style"
         android:title="@string/edge_light_style_title"
         android:entries="@array/edge_light_style_entries"
@@ -59,7 +59,7 @@
         android:defaultValue="default"
         android:dependency="edge_light_enabled" />
 
-    <com.crdroid.settings.preferences.SystemSettingListPreference
+    <com.losp.settings.preferences.SystemSettingListPreference
         android:key="edge_light_animation_effect"
         android:title="@string/edge_light_animation_effect_title"
         android:entries="@array/edge_light_animation_entries"
@@ -68,7 +68,7 @@
         android:defaultValue="none"
         android:dependency="edge_light_enabled" />
 
-    <com.crdroid.settings.preferences.colorpicker.SystemSettingColorPickerPreference
+    <com.losp.settings.preferences.colorpicker.SystemSettingColorPickerPreference
         android:key="edge_light_custom_color"
         android:title="@string/custom_color"
         android:defaultValue="#FFFFFF"
