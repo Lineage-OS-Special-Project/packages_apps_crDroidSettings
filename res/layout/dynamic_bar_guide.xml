@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2026 crDroid Android Project
+     Copyright (C) 2026 Lineage OS Special Project (LOSP)
      SPDX-License-Identifier: Apache-2.0
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -35,7 +35,7 @@
                 android:layout_width="0dp"
                 android:layout_height="16dp" />
 
-            <com.crdroid.settings.fragments.statusbar.DynamicBarChipSwipeDemoView
+            <com.losp.settings.fragments.statusbar.DynamicBarChipSwipeDemoView
                 android:layout_width="match_parent"
                 android:layout_height="80dp" />
 
@@ -108,7 +108,7 @@
                 android:layout_width="0dp"
                 android:layout_height="16dp" />
 
-            <com.crdroid.settings.fragments.statusbar.DynamicBarExpandedDemoView
+            <com.losp.settings.fragments.statusbar.DynamicBarExpandedDemoView
                 android:layout_width="match_parent"
                 android:layout_height="120dp" />
 
@@ -145,7 +145,7 @@
                 android:layout_width="0dp"
                 android:layout_height="16dp" />
 
-            <com.crdroid.settings.fragments.statusbar.DynamicBarKeyguardDemoView
+            <com.losp.settings.fragments.statusbar.DynamicBarKeyguardDemoView
                 android:layout_width="match_parent"
                 android:layout_height="64dp" />
 
