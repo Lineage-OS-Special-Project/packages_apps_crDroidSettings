@@ -131,7 +131,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         mQsTileLabelHide = findPreference(KEY_QS_TILE_LABEL_HIDE);
 
         int panelStyle = Settings.System.getIntForUser(resolver,
-                Settings.System.QS_PANEL_STYLE, 0, UserHandle.USER_CURRENT);
+                Settings.System.QS_PANEL_STYLE, 1, UserHandle.USER_CURRENT);
         updatePanelStylePrefs(panelStyle);
     }
 
@@ -192,7 +192,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         Settings.System.putIntForUser(resolver,
                 Settings.System.QS_TILE_SHAPE, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
-                Settings.System.QS_PANEL_STYLE, 0, UserHandle.USER_CURRENT);
+                Settings.System.QS_PANEL_STYLE, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.QS_TILE_ANIMATION_STYLE, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
